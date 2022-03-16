@@ -61,7 +61,7 @@ if I had I few more hours I would use it to research on how to make a score trac
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://jjay-cuny.zoom.us/rec/play/Z1Xd4gHyY8Fok8KLry_QN06kmB9ozjcAOfGEBVAMCcX7W-GFtBbkeGsQ9Z9MAYwmHWFlAGkZZhJhWRtj.SNQh6vapPpnHrgaC?startTime=1647396472000)
+[My 5-minute Interview Recording](https://jjay-cuny.zoom.us/rec/share/mKoanMg_7nEVLbCoLhLsGGZdHcdAisacWSKQql4ouj72NTOb61Xo7fg4xbZ0zRP2.buLIlDg44Lzn4eUZ?startTime=1647399136000)
 
 
 ## License
