@@ -23,11 +23,11 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
 * [ ] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [x] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
@@ -39,8 +39,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/86847268/158450669-26d01627-2c00-4270-9a17-1d65a2c9b0dc.gif)
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/86847268/158450700-934ad2f9-2389-43db-826a-bd40b4c40a87.gif)
+![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/86847268/158717787-971dcbd6-8ab3-4236-a253-35f065dedb53.gif)
+![ezgif com-gif-maker copy](https://user-images.githubusercontent.com/86847268/158717792-e2ef581d-9789-4ff8-8eba-f390b32685a3.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/86847268/158717799-aef55490-d742-45a4-af14-09751727a1a5.gif)
 
 
 ## Reflection Questions
@@ -48,7 +49,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 I did not use any outside souces, I used eveything that was provided to me. 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? 
-some of the challenges while working on this submisson that I faced was working on code that i did not really understand. However by reading more into it and doing a bit of research I was able to understand how to code a bit of javascript and css. Im still a bit unsure on some parts of the javascript such as the code in the playTone function and startTone. However I am hopping to understand it more as I get more experience in Coding in javaScript.  
+some of the challenges while working on this submisson that I faced was working on code that i did not really understand. However by reading more into it and doing a bit of research I was able to understand how to code a bit of javascript and css. Im still a bit unsure on some parts of the javascript such as the code in the playTone function and startTone. However I am hopping to understand it more as I get more experience in Coding in javaScript. after noticing that it is a bit like C++ in a way, i figured out how to impliemnt it so that when 3 mistakes were made then it the gameover screen would pop up. 
 
 3. What questions about web development do you have after completing your submission? 
 Some questions that I have about web developer is this how most websites written with javascript, css and html? and how do websites connenet to severs in order to save information? also how do web developer remember all of these syntax of coding these differerent coding languages ? 
