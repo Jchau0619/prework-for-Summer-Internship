@@ -15,8 +15,8 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
-  background-color: slategrey;
-  color: cyan;
+  background-color: gold;
+  color: blue;
   
 }
 h1{
@@ -27,8 +27,8 @@ button{
   border-radius: 10px; 
 }
 #gameButtonArea >Button { 
-  width:200px;
-  height:200px;
+  width:250px;
+  height:250px;
   margin:2px;
 }
 
@@ -44,6 +44,9 @@ button{
 #button4{
   background: lightyellow;
 }
+#button5{
+  background: black;
+}
 #button1:active, #button1.lit {
   background:green;
 }
@@ -55,6 +58,9 @@ button{
 }
 #button4:active, #button4.lit {
   background:yellow;
+}
+#button5:active, #button5.lit {
+  background:white;
 }
 
 .hidden{
