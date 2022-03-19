@@ -1,29 +1,43 @@
 // global constants
-const clueHoldTime = 1000; //how long to hold each clue's light/sound
+var clueHoldTime = 1000; //how long to hold each clue's light/sound
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 //Global Variables
-var pattern = [1,5,2,4,3,5];
+var pattern = [];
 var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false; 
 var volume = 0.5;
 var guessCounter=0; 
 var loseC = 0;
+//random array
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+function setarray(){
+  const AL= 6;
+  for(let i = 0; i<AL; i++) {pattern.push(getRandomInt(4))}
+}
 
 function startGame(){
   //initialize game variables 
+  clueHoldTime = 1000;
+  setarray();
   progress = 0;
   loseC = 0;
   gamePlaying = true;
   document.getElementById("startBtn").classList.add("hidden")
   document.getElementById("stopBtn").classList.remove("hidden")
   playClueSequence();
+  
 }
 function stopGame(){
   gamePlaying = false; 
   document.getElementById("startBtn").classList.remove("hidden")
   document.getElementById("stopBtn").classList.add("hidden")
+  pattern = [];
+  clueHoldTime = 1000;
   
 }
 // Sound Synthesis Functions
@@ -32,7 +46,7 @@ const freqMap = {
   2: 101,
   3: 316,
   4: 517,
-  5: 619
+  0: 619
 }
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn]
@@ -87,7 +101,7 @@ function playClueSequence(){
   for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
-    delay += clueHoldTime 
+    delay += clueHoldTime-200; 
     delay += cluePauseTime;
   }
 }
@@ -96,12 +110,17 @@ function loseGame(){
     if(loseC >= 3){
      stopGame(); 
       alert("Game Over. You lost.");
+      pattern = [];  
+      clueHoldTime = 1000;
     }
+  
   
 }
 function winGame(){
   stopGame();
   alert("Game Over. You won!");
+  pattern = [];
+  clueHoldTime = 1000;
 }
 
 function guess(btn){
@@ -128,3 +147,8 @@ function guess(btn){
     
   }
 }
+  
+
+  
+
+

@@ -42,9 +42,9 @@ button{
   background: pink;
 }
 #button4{
-  background: lightyellow;
+  background: orange;
 }
-#button5{
+#button0{
   background: black;
 }
 #button1:active, #button1.lit {
@@ -59,7 +59,7 @@ button{
 #button4:active, #button4.lit {
   background:yellow;
 }
-#button5:active, #button5.lit {
+#button0:active, #button0.lit {
   background:white;
 }
 
