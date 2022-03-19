@@ -25,8 +25,8 @@ The following **optional** features are implemented:
 * [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [x] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [x] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
+* [x] Playback speeds up on each turn
+* [x] Computer picks a different pattern each time the game is played
 * [x] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
@@ -42,20 +42,23 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/86847268/158717787-971dcbd6-8ab3-4236-a253-35f065dedb53.gif)
 ![ezgif com-gif-maker copy](https://user-images.githubusercontent.com/86847268/158717792-e2ef581d-9789-4ff8-8eba-f390b32685a3.gif)
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/86847268/158717799-aef55490-d742-45a4-af14-09751727a1a5.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/86847268/159138419-13f32f81-8353-4296-a498-1a8bc3d275fa.gif)
 
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-I did not use any outside souces, I used eveything that was provided to me. 
+https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/math/random
+https://javascript.plainenglish.io/how-to-generate-an-array-of-random-numbers-in-javascript-f883de667e84
+
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? 
-some of the challenges while working on this submisson that I faced was working on code that i did not really understand. However by reading more into it and doing a bit of research I was able to understand how to code a bit of javascript and css. Im still a bit unsure on some parts of the javascript such as the code in the playTone function and startTone. However I am hopping to understand it more as I get more experience in Coding in javaScript. after noticing that it is a bit like C++ in a way, i figured out how to implement it so that when 3 mistakes were made then the gameover screen would pop up. 
+while working on this project some of the problems that occure are the syntex as i was more used to C++. however i notice that some things are similar to c++, i was able to use some of that knowledge in order to make the user to have 3 lives before losing. I had the most trouble when i was working on creating a random pattern every time. i understood how to do this in C++ and understood the concept but did not understand how to translate that to javascript, so i did a little bit research to find the code and how to implent it. Problems that started to occur when i did this was having it not having enought time to process the random Array, i sloved this by putting it in a function and calling it first, instead of trying to implent random array at the start button. i also had some problem figuring out how to clear an array but with some quick search was able to figure it out. another problem was having it glitch out by my random numbers put "0" when their is no zero button. took me some time to realize but the simple fix was to either make my random function then plus one to the product. however i just made it so that button 5 would be called zero instead, i think it worked better. i also had to fix things such as clueHoldTime, as this would not reset and made it super fast. fixed this by making it 1000 at the start. overall many of the problems that i faced could be sloved with more research online. 
 
 3. What questions about web development do you have after completing your submission? 
-Some questions that I have about web developer is this how most websites written with javascript, css and html? and how do websites connenet to severs in order to save information? also how do web developer remember all of these syntax of coding these differerent coding languages ? 
+Some questions that I have about web developer is this how most websites written with javascript, css and html? and how do websites connenet to severs in order to save information? also how do web developer remember all of these syntax of coding these differerent coding languages ? what are some ways i can improve my experience in coding ? 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. 
-if I had I few more hours I would use it to research on how to make a score tracker to keep the score and to keep the memory game infinitely. I would also need to make the patters random instead of a static, so it can change everytime someone plays the game instead of repeating the same pattern. 
+if I had I few more hours I would use it to research on how to make a score tracker to keep the score and to keep the memory game infinitely, making it so it would display high score. I would also try to make the button pop up around the screen instead of the button becoming static. 
 
 
 
